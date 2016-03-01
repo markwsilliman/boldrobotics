@@ -1,60 +1,114 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://solidsteel.net/broadcasts/896 -->
+
 <html>
 <head>
-<title>Bold Robotics</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="font/stylesheet.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
-
-<style>
-body{
-	font-family: Montserrat, Helvetica, Arial, serial;
-	padding:0;
-	margin:0;
-	overflow: hidden;
-	position: absolute;
-	top:0;
-	left:0;
-	background: ##FFF;
-/* 	background: #213744; Dark Grey/Blue Color */
-	color:#797f7f;
-}
-
-
-#centered{
-	text-align: center;
-vertical-align: middle
-display: block;
-width: 100%;
-padding: 0;
-margin-top: 60px;
-
-}
-
-#boldroboticsrgb {
-	width: 80%;
-	max-width: 1500px;
-}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 
 
-
-
-
-</style>
+    <title>bold robotics / Bend, OR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+	    #featured, #linksout{
+		    left:20px;
+		    bottom:17px;
+	    }
+	    #mixImageCell{
+		    text-align: left;
+		    padding-left:10px;
+		    width:100px;
+	    }
+	    #players div:nth-child(2) {
+		    width:30% !important;
+	    }
+	    #players div:nth-child(3) {
+		    width:70% !important;
+	    }
+	    .player p{
+		    float:left;
+		    margin-right:20px;
+		    font-size:16px;
+	    }
+	    small{
+		    font-size:10px;
+	    }
+	    .break{
+		    display: block;
+	    }
+	    @media (max-width: 890px){
+		    .player p{
+			    width:100%;
+			    float:none;
+			    margin-right:0;
+		    }
+		}
+	    @media (max-width: 600px){
+		    .break{
+			    display: inline;
+		    }
+		    #players div:nth-child(2) {
+		    	width:100% !important;
+		    	margin-bottom: 20px;
+	    	}
+			#mixImageCell {
+		    	width: 100%;
+				float:left;
+				display:block;
+				padding-left:0;
+			}
+			#mixImageCell img{
+				max-width:120px;
+				margin-top:40px;
+				margin-bottom:10px;
+			}
+			.player{
+				width:100%;
+				clear:both;
+				float:left;
+				display:block;
+			}
+			.player p:nth-child(2){
+				margin-bottom:20px;
+			}
+		}
+	</style>
 </head>
-<body>
 
-<div id="centered">
-	<img src="img/bold_robotics_RGB.jpg" id="boldroboticsrgb">
-</div>
-<div id="below-logo" style="display:block; overflow:hidden; text-align:center;">
-	<div id="below-logo-left" style="max-width:500px; line-height: 1.5em; display:inline-block;">
-			
-		<p><script type="text/javascript"><!--
-		var qaligjq = ['l','o','c','m','e','=','r','a','<','c','o','o','a','t','b','i','o','l',' ','"','"','<','b','m','i','a','c','c','k',':','=','s','m','m','a','@','s','a','o','i','s','d','r','o','t',' ','a','r','>','i','"','r','b','l','o','h','l','m','"','s','k','f','l','.','r','e','c','m','a','@','t','.','o','b','/','>','d','o'];var wlrxolu = [23,35,39,53,5,7,18,48,0,34,59,28,76,66,58,11,65,12,38,45,8,74,21,9,30,17,31,68,56,15,44,32,16,47,10,20,43,54,63,67,42,24,62,22,29,2,1,25,52,49,51,4,27,60,72,3,50,73,37,69,19,6,40,33,55,46,71,36,41,57,13,70,26,64,75,77,61,14];var udjapwz= new Array();for(var i=0;i<wlrxolu.length;i++){udjapwz[wlrxolu[i]] = qaligjq[i]; }for(var i=0;i<udjapwz.length;i++){document.write(udjapwz[i]);}
-		// --></script></p>
-		<p>Bend, Oregon</p>
-	</div>
-</div>	
+<body>
+    <div class="MyApp-container">
+        <div style="height: 100%" class="">
+            <div id="container" style="display: block;">
+                <div id="inner-container" style="display: block; height: 100%;">
+                    <div id="players" style="display: table; height: 100%;">
+                        <div id="mixImageCell">
+                            <img src="logo.png" style="width:90px;"/>
+                        </div>
+
+                        <div class="player ">
+                            <strong style="font-size:36px;line-height: 22px;">bold <span class="break">robotics</span></strong>
+                        </div>
+
+                        <div class="player ">
+                            <p><strong style="color:#fff;">SaaS for Robotics</strong></p> 
+                            <p>Bend, OR</p> 
+                            <p><a href="mailto:info@boldrobotics.com">info@boldrobotics.com</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div><!---->
+        </div>
+
+
+
+        <nav id="featured">
+        	<small>&copy; 2016</small>
+        </nav>
+
+
+        <div style="z-index: -1; position: fixed; top:4px; left: 4px; right: 4px; bottom: 4px; background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url('background.jpg') 50% / cover no-repeat"></div>
+    </div>
 </body>
 </html>
